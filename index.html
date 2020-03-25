@@ -1,0 +1,66 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <center>
+        <div id="form">
+            <input type="text" id="playerOne" placeholder="Player One">
+            <input type="text" id="playerTwo" placeholder="Player Two">
+            <br>
+            <button onclick="submit()" id="sumbit">Submit</button>
+        </div>
+        <div id="innings">
+            <h1 id="innings-header">
+
+            </h1>
+        </div>
+        <div id="runs-header-container">
+            <h1 id="heading">
+                Choose Your score on each Ball
+            </h1>
+        </div>
+        <div id="buttons-container">
+            <button id="one-run" class="buttons">1 Run</button>
+            <button id="two-run" class="buttons">2 Runs</button>
+            <button id="three-run" class="buttons">3 Runs</button>
+            <button id="four-run" class="buttons">4 Runs</button>
+            <button id="six-run" class="buttons">6 Runs</button>
+            <br>
+            <button id="wicket" class="buttons">Wicket</button>
+            <button id="no-ball" class="buttons">No Ball</button>
+            <button id="wide"  class="buttons">Wide</button>
+        </div>
+        <div id="score">
+            <strong id="player-one-score" class="results">Score:</strong>
+            &nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;
+            <strong id="player-two-score" class="results">Score:</strong>
+            <br>
+            <strong id="one-balls" class="results">Balls:</strong>
+            &nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;
+            <strong id="two-balls" class="results">Balls:</strong>
+            <br>
+            &nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;
+            <strong id="one-wickets" class="results">Wickets:</strong>
+            &nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;
+            <strong id="two-wickets" class="results">Wickets:</strong>
+            &nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;
+            <br>
+            <strong id="target" class="results">Target:</strong>
+            <br>
+        </div>
+        <p id="inning-change" class="results"></p>
+        </center>
+        <script src="script.js"></script>
+    </body>
+</html>

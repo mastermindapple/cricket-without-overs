@@ -1,0 +1,37 @@
+table{
+    text-align: center;
+}
+input{
+    height: 100px;
+    width: 200px;
+    text-align: center;
+    font-size: 30px;   
+}
+#sumbit{
+    height: 80px;
+    width: 160px;
+    font-size: 30px;
+    text-align: center;
+    background-color: blue;
+    color: red;
+}
+.buttons{
+    height:80px;
+    width: 80px;
+    font-size: 20px;
+    text-align: center;
+    background-color: red;
+    color: blue;
+}
+.results{
+    font-size: 50px;
+    color: blue;
+    background-color: red;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#heading{
+    color: blue;
+    background-color: red;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+    
